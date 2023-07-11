@@ -264,7 +264,7 @@ padding-bottom: 100px;
 #Email{
 border: none;
 border-radius: 5px;
-color: rgba(0, 0, 0, 0.6);
+color: rgba(39, 39, 39, 0.405);
 font-size: 15px;
 background-color: #ffffff;
 font-weight: 400;
@@ -286,6 +286,7 @@ height: 45px;
 }
 .emailbox>input{
     padding: 0 5px;
+    color: #4d4545a8;
 }
 .bglast{
     background-image: url("Flower Asset/Rectangle 9.png");
