@@ -330,3 +330,149 @@ height: 45px;
   }
   
    /* Bonus Part *
+/* Media Query for Mobile View */
+@media (max-width: 576px) {
+    .bg1 {
+      margin-left: auto;
+    }
+  
+    .bg1 > h1 {
+      width: auto;
+      font-size: 30px;
+      line-height: 40px;
+      margin-left: 10px;
+    }
+  
+    .bg1 > p {
+      width: auto;
+      font-size: 16px;
+      line-height: 25px;
+      margin-left: 10px;
+
+    }
+  
+    .hero-img > img {
+      height: auto;
+      width: 200px;
+      margin-left: 0;
+      margin-top: 20px;
+    }
+    .bg1 >button {
+    margin-left: 10px;
+    }
+    .second-part{
+         width: 300px;
+         justify-content: center;
+         margin: 0 auto;
+ }
+    .second-part>p{
+         width: 320px;  
+         text-align: center; 
+         justify-content: center;
+ }
+ .Bonus1{
+   flex-direction: column;
+}
+ .Bon{
+   flex-direction: column;
+}
+.extra1{
+    gap: 80px;
+    margin-left: 20px;
+flex-direction: column;}
+.extrapart{
+    background-color:#2727270D;
+    width: 55vw;
+    height: 560px;
+    padding: 0;
+    border-radius:5px ;
+
+    }
+   .extrapartcontent{
+    margin-top: 10px;
+   }
+    
+    .Hot {
+      justify-content: center;
+      text-align: center;
+      width: auto;
+    }
+  
+    .Hot-deal-text h1 {
+      font-size: 20px;
+      width: 330px;
+      text-align: center;
+      margin:0 auto;
+    }
+    .Hot-deal-text {
+    
+        text-align: center;
+        margin:0 auto;
+      }
+  
+    .Hot-deal-text p {
+      font-size: 16px;
+      line-height: 25px;
+     text-align: center;
+     width: 43opx;
+     margin-left: 20px;
+    }
+    .Hot-deal-text button {
+     margin-right: 200px;
+     margin-top: 40px;
+    }
+  
+    .deals-img img{
+        width:27% ;
+        height: 20%;
+
+    }
+   
+    .deals-img {
+      margin-left: -400px;
+      margin-top: 140px;
+    }
+    .Instagram{
+        width: 360px;
+    }
+    .Instagram p{
+        width: 360px;
+    }
+    .fourimage{
+    margin: 0 auto;
+         flex-direction: column;
+        }
+        .flower4{
+            margin:10px auto;
+        }
+        .flower4 img{
+            width: 102%;
+            height: 105%;
+            border-radius:5px ;
+        }
+
+        #Email{
+            border: none;
+            border-radius: 5px;
+            color: rgba(39, 39, 39, 0.405);
+            font-size: 15px;
+            background-color: #ffffff;
+            font-weight: 400;
+            width: 330px;
+            height: 45px;
+            }
+            .emailbox>button{
+                margin-left: 3px;
+                padding: 15px 40px;
+                background-color: rgba(229, 84, 115, 1);
+                border: none;
+                border-radius: 5px;
+                color: white;
+                margin-top: 15px;
+            }
+
+}
+
+  
+
+   
